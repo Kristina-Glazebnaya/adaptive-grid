@@ -3,12 +3,8 @@
 
 *, *::before, *::after {
   box-sizing: inherit;
-  outline: none !important;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
   -webkit-font-smoothing: antialiased;
-  &:active, &:focus {
-    outline: none !important;
-  }
 }
 
 html, body {
@@ -24,7 +20,7 @@ body {
   flex-direction: column;
   // font: 400 16px/1.2 $ProximaNova;
   font-size: 16px;
-  color: #000000;
+  color: #000;
   background: $white;
   text-rendering: optimizeLegibility;
 }
